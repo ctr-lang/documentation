@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:artisin/ctr.git
+	branch = static
+	commit = f79104da544f216622e1c9e5bb2c7d89cc6408ee
+	parent = 0df152299e61a85b90b5d19dd49ac3e8514393f6
+	cmdver = 0.3.1
