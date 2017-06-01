@@ -18,7 +18,10 @@
   },
   "scripts": {
     "commit": "git cz",
-    "docs:docsToExternal": "SOURCE='docs' node _scripts_/dev/update.docs.js",
+    "external:pull": "cd docs-external && npm run docs:sourcePull",
+    "external:update": "SOURCE='docs' node _scripts_/dev/update.docs.js",
+    "external:push": "cd docs-external && npm run docs:sourcePush",
+    "docs:docsToExternal": "npm-run-all -s test external:pull external:update external:push",
     "docs:externalToDocs": "SOURCE='external' node _scripts_/dev/update.docs.js",
     "fix": "fixpack",
     "push:docs": "git subrepo push docs-external -u --branch=source",
