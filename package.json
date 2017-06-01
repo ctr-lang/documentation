@@ -35,6 +35,10 @@
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
+    "bumped": "^0.10.4",
+    "bumped-changelog": "^0.3.10",
+    "bumped-finepack": "^0.2.8",
+    "bumped-terminal": "^0.7.3",
     "colors": "^1.1.2",
     "colur": "^0.0.4",
     "commitizen": "^2.9.6",
