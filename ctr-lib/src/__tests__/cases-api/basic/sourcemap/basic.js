@@ -86,7 +86,7 @@ const cssFile = path.join(__dirname, 'basic.css');
 const exp = fs.existsSync(cssFile) ? readFile(cssFile) : false;
 //get our source map
 const sourcemap = fs.existsSync(sourcemapPath) ? readFile(sourcemapPath) : false;
-const sourcemapSould = 'AAUK;EAVG,OAAM,KAAN;EAAW,OAAM,MAAN;EAAY,QAAO,MAAP';
+const sourcemapSould = 'AAWK;EAXG,OAAM,KAAN;EAAW,OAAM,MAAN;EAAY,QAAO,MAAP';
 const sourcemapEqual = sourcemap === sourcemapSould;
 
 module.exports = {

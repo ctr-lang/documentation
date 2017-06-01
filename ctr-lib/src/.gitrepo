@@ -4,8 +4,8 @@
 ; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
 ;
 [subrepo]
-	remote = git@github.com:artisin/ctr.git
+	remote = git@github.com:ctr-lang/ctr.git
 	branch = static
-	commit = f79104da544f216622e1c9e5bb2c7d89cc6408ee
-	parent = 0df152299e61a85b90b5d19dd49ac3e8514393f6
+	commit = f75ca6968b7802ddbf447a99b9f0a3130e60c000
+	parent = ef81ee341b22e383c5fbe495b0998314ba344dbd
 	cmdver = 0.3.1
