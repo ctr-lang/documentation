@@ -18,8 +18,8 @@ const init = function () {
   const rsync = new Rsync()
         .exclude('_super-secret-subscription.md')
         // dry run -> n
-        // .flags(['n', 'r', 'u', 'v', 't', '--progress', '--delete'])
-        .flags(['r', 'u', 'v', 't', '--progress', '--delete'])
+        // .flags(['n', 'r', 'v', 't', '--progress', '--delete'])
+        .flags(['r', 'v', 't', '--progress', '--delete'])
         .source(SOURCE)
         .destination(DEST);
 
