@@ -33,7 +33,7 @@
     "test:debug": "iron-node node_modules/mocha/bin/_mocha __tests__/ --colors --bail --compilers js:babel-core/register",
     "test:runner": "mocha __tests__/ --colors --bail --compilers js:babel-core/register",
     "update:ctr": "git subrepo pull --branch=static ctr-lib/src",
-    "update:docs": "git subrepo pull --branch=master docs-external/"
+    "update:docs": "cd docs-external && npm run docs:sourceUpdate"
   },
   "dependencies": {
     "babel-core": "^6.24.1",
