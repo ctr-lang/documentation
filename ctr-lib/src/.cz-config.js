@@ -11,6 +11,7 @@ module.exports = {
     {value: 'release',  name: 'release:  A code release and tag'},
     {value: 'revert',   name: 'revert:   Revert to a commit'},
     {value: 'style',    name: 'style:    Changes that do not affect the meaning of the code\n            (white-space, formatting, missing semi-colons, etc)'},
+    {value: 'syntax',   name: 'syntax:   Spelling, grammar, punctuation, or mechanics'},
     {value: 'update',   name: 'update:   Updates feature'},
     {value: 'test',     name: 'test:     Adding missing tests'},
     {value: 'WIP',      name: 'WIP:      Work in progress'}
@@ -19,9 +20,11 @@ module.exports = {
   // Eg.: for some banking system: ["acccounts", "payments"].
   // For another travelling application: ["bookings", "search", "profile"]
   scopes: [
+    {name: 'less'},
+    {name: 'stylus'},
+    {name: 'javascript'},
+    {name: 'yaml'},
     {name: 'lib'},
-    {name: 'lib/less'},
-    {name: 'lib/stylus'},
     {name: 'lib/ctr-nodes'},
     {name: 'lib/ctr-js-nodes'},
     {name: '__tests__/'},

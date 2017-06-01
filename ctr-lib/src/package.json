@@ -67,7 +67,6 @@
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-preset-env": "1.5.1",
     "beautify-benchmark": "^0.2.4",
     "benchmark": "^2.1.0",

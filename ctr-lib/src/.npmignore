@@ -4,6 +4,7 @@ __temp__/
 ___temp___/
 testBin/*
 __tests__/
+.github/
 gulpfile.js/
 wercker.yml
 .babelrc
@@ -18,6 +19,7 @@ wercker.yml
 .tern-project
 .zappr.yaml
 CONTRIBUTING.md
+
 
 # Global
 *~
