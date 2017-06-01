@@ -1,0 +1,14 @@
+.TEST-1:HOVER {
+  WIDTH: 444PX;
+  TRANSITION-DELAY: 0S;
+  TRANSITION-DURATION: 0.5S;
+  TRANSITION-PROPERTY: WIDTH;
+  TRANSITION-TIMING-FUNCTION: EASE-IN;
+}
+.test-2:hover {
+  width: 200px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

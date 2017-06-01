@@ -1,0 +1,7 @@
+# YAML its a beautiful thing
+.test:
+  size: 200px
+  hover:
+    on:
+      color: red
+      background-color: green

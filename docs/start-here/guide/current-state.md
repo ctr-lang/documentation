@@ -1,0 +1,11 @@
+# Current State
+
+At the time of writing this, `ctr` is at version `0.4` &mdash; the initial public release. Over the course of two years, I've created hundreds of iterations and tested a latitude of schemas to get to this point. In the grand scheme, I feel quite content with the current core structural schema of `ctr` &mdash; how `ctr` works and how features work with one another. While I don't foresee any radical changes, I can make no guarantees.
+
+Be that as it may, I can guarantee all future `ctr` releases under `1.0` will consist solely of bug fixes or slight alterations need be. Then, significant changes, if any, will occur in version `1.0` since `1.0` will be a complete internal code rehaul/rewrite. However, like I said, the rewrite _should_&nbsp; have little to no effect on the core syntactical structure. Also, version `1.0` will come with an upgrade script to automatically update and/or walk you through anything that needs your attention.
+
+Regarding production readiness, it's impossible to give a catch-all answer and it's largely dependent on an assortment of personal variables. Nonetheless, given its compiled and non-runtime nature, in my opinion, there's a bit more leeway compared to Javascript libraries such as [Jquery](https://jquery.com/), [lodash](https://lodash.com/), [Vue.js](https://vuejs.org/). Moreover, I've gone to, and will continue to go to, great lengths to ensure `ctr` is as production-ready as possible through the only measurable metric I know &mdash; tests. Currently, `ctr` is backed by thousands of tests and every single example in this documentation is also tested. The number of tests will only increase over the course of time. However, at this stage, it's not the lack of tests that give me pause, but rather the lack of a style/semantics guide. There are thousands of ways to structure a `ctr` project, some good, some bad, and I purposefully did not release an official `ctr` style guide with this initial release. Only until there's an official `ctr` style guide will I give my stamp of approval because right now it's the wild wild west and unless you're a code cowboy/cowgirl, tread with caution.
+
+<div class="cf"></div>
+<div class="end"></div>
+

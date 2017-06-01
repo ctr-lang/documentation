@@ -1,0 +1,5 @@
+# The YAML style data
+# filePath: ./test-data.yml
+.test-data:
+  color: red
+  width: 200px

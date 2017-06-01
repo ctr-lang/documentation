@@ -1,0 +1,176 @@
+################################################################################
+# Settings
+################################################################################
+site_name: ctr
+docs_dir: docs
+theme: 'material'
+site_description: The CSS Framework
+site_url: https://docs.ctr-lang.com/
+extra_css: []
+extra_javascript: []
+
+
+################################################################################
+# Plugins
+################################################################################
+extra:
+    version: 0.1.0
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: True
+    - sane_lists
+    - markdown_include.include:
+        base_path: docs
+    - markdown.extensions.attr_list
+
+
+################################################################################
+# Pagets
+################################################################################
+pages:
+- Home                         : index.md
+- Search                       : search.md
+- Login                        : login.md
+- 404                          : 404.md
+- Stack                        : stack.md
+
+- Start Here:
+  - 'Introduction'             : 'start-here/introduction.md'
+  - 'Install'                  : 'start-here/install.md'
+  - 'Guide'                    : 'start-here/guide.md'
+  - 'Less'                     : 'start-here/less.md'
+  - 'Token'                    : 'start-here/token.md'
+  - '<code>ctr</code> Academy' : 'start-here/ctr-academy.md'
+  - 'Newsletter'               : 'start-here/newsletter.md'
+  - 'FAQ'                      : 'start-here/FAQ.md'
+  - 'CHANGELOG'                : 'start-here/CHANGELOG.md'
+
+- Javascript API:
+  - 'General'                  : 'javascript/general.md'
+  - 'Methods'                  : 'javascript/methods.md'
+  - 'YAML'                     : 'javascript/yaml.md'
+  - 'ctr-loader'               : 'javascript/ctr-loader.md'
+
+- Animation:
+  - 'General'                  : 'animation/general.md'
+  - 'Key'                      : 'animation/key.md'
+  - 'Shorthand'                : 'animation/shorthand.md'
+  - 'Object'                   : 'animation/object.md'
+  - 'Specific Option'          : 'animation/specific-option.md'
+  - 'Target Option'            : 'animation/target-option.md'
+  - 'Ease Preset'              : 'animation/ease-preset.md'
+  - 'Animate.css'              : 'animation/animate.css.md'
+
+- Attribute:
+  - 'General'                  : 'attribute/general.md'
+  - 'Key'                      : 'attribute/key.md'
+  - 'Object'                   : 'attribute/object.md'
+  - 'Specific Option'          : 'attribute/specific-option.md'
+  - 'Target Option'            : 'attribute/target-option.md'
+  - 'Feature'                  : 'attribute/feature.md'
+
+- Basic:
+  - 'General'                  : 'basic/general.md'
+  - 'Color Functions'          : 'basic/color-functions.md'
+  - 'Math Functions'           : 'basic/math-functions.md'
+  - 'Misc Functions'           : 'basic/misc-functions.md'
+  - 'Target Option'            : 'basic/target-option.md'
+  - 'Processing'               : 'basic/processing.md'
+  - 'Global Option'            : 'basic/global-option.md'
+
+- Class:
+  - 'General'                  : 'class/general.md'
+  - 'Variable'                 : 'class/variable.md'
+  - 'Extend'                   : 'class/extend.md'
+  - 'Key'                      : 'class/key.md'
+  - 'Preset'                   : 'class/preset.md'
+
+- Component:
+  - 'General'                  : 'component/general.md'
+  - 'Key'                      : 'component/key.md'
+  - 'Object'                   : 'component/object.md'
+  - 'Specific Option'          : 'component/specific-option.md'
+  - 'Target Option'            : 'component/target-option.md'
+  - 'Feature'                  : 'component/feature.md'
+
+
+- Element:
+  - 'General'                  : 'element/general.md'
+  - 'Key'                      : 'element/key.md'
+  - 'Object'                   : 'element/object.md'
+  - 'Nth Key'                  : 'element/nth-key.md'
+  - 'Specific Option'          : 'element/specific-option.md'
+  - 'Target Option'            : 'element/target-option.md'
+  - 'Feature'                  : 'element/feature.md'
+
+- Grid:
+  - 'General'                  : 'grid/general.md'
+  - 'Align'                    : 'grid/align.md'
+  - 'Column'                   : 'grid/column.md'
+  - 'Row'                      : 'grid/row.md'
+  - 'Move'                     : 'grid/move.md'
+  - 'Offset'                   : 'grid/offset.md'
+  - 'Waffle'                   : 'grid/waffle.md'
+  - 'Masonry'                  : 'grid/masonry.md'
+  - 'Specific Option'          : 'grid/specific-option.md'
+  - 'Feature'                  : 'grid/feature.md'
+
+- Helpers:
+  - 'General'                  : 'helpers/general.md'
+  - 'Align'                    : 'helpers/align.md'
+  - '.ctrrc'                   : 'helpers/dot-ctrrc.md'
+  - 'Filter'                   : 'helpers/filter.md'
+  - 'Matrix'                   : 'helpers/matrix.md'
+  - 'Responsive Text'          : 'helpers/responsive-text.md'
+  - 'Set'                      : 'helpers/set.md'
+
+- Media:
+  - 'General'                  : 'media/general.md'
+  - 'Query Type'               : 'media/query-type.md'
+  - 'Logical Operator'         : 'media/logical-operator.md'
+  - 'Mixin'                    : 'media/mixin.md'
+  - 'Mixin Key'                : 'media/mixin-key.md'
+  - 'Object'                   : 'media/object.md'
+  - 'Mixin Object'             : 'media/mixin-object.md'
+  - 'Specific Option'          : 'media/specific-option.md'
+  - 'Feature'                  : 'media/feature.md'
+
+- Merge:
+  - 'General'                  : 'merge/general.md'
+  - 'Merge With'               : 'merge/merge-with.md'
+
+- Non:
+  - 'General'                  : 'non/general.md'
+  - 'Key'                      : 'non/key.md'
+  - 'Object'                   : 'non/object.md'
+  - 'Specific Option'          : 'non/specific-option.md'
+  - 'Target Option'            : 'non/target-option.md'
+  - 'Feature'                  : 'non/feature.md'
+
+- State:
+  - 'General'                  : 'state/general.md'
+  - 'Key'                      : 'state/key.md'
+  - 'Object'                   : 'state/object.md'
+  - 'Shorthand'                : 'state/shorthand.md'
+  - 'attachTo Option'          : 'state/attach-to.md'
+  - 'Specific Option'          : 'state/specific-option.md'
+  - 'Target Option'            : 'state/target-option.md'
+  - 'Ease Preset'              : 'state/ease-preset.md'
+  - 'Hover.css'                : 'state/hover.css.md'
+  - 'Feature'                  : 'state/feature.md'
+  - 'Feature Option'           : 'state/feature-option.md'
+
+- Transition:
+  - 'General'                  : 'transition/general.md'
+  - 'Object'                   : 'transition/object.md'
+  - 'Shorthand'                : 'transition/shorthand.md'
+  - 'Ease Preset'              : 'transition/ease-preset.md'
+  - 'Specific Option'          : 'transition/specific-option.md'
+  - 'Target Option'            : 'transition/target-option.md'
+  - 'Feature'                  : 'transition/feature.md'
+  - 'Feature Option'           : 'transition/feature-option.md'
+
+- Variable:
+  - 'General'                  : 'variable/general.md'
+  - 'Eval Plugin'              : 'variable/eval-plugin.md'

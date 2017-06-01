@@ -1,0 +1,1 @@
+{!stack/_index.md!}

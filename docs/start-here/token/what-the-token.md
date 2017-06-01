@@ -1,0 +1,13 @@
+# What The Token!?
+
+It’s said money isn't speech, but it enables it, and the same can be said about Open Source. But if there’s a list of Open Source cultural taboos, asking for money is near the top of the list and to be honest, it shouldn’t be. Open Source isn't defined by the term “free,” rather it's a byproduct of collaboration that developers, myself included, tend to take advantage of. However, this relationship between users, developers, and monetary support (or the lack thereof) is a significant hurdle that I believe is holding back a heap of potential innovation. Innovation that I, and I hope you as well, want to see happen under the Open Source flag.
+
+Initially, I was going to hobble `ctr` through a beekeeper, freemium, or dual-license model. But after consideration, I decided pursuing such a model would go against the principle philosophy of Open Source. Nonetheless, that put me between a rock and a hard place because I need monetary support for future development and donation buttons simply do not work. At the same time, selling space and data to advertisers is about the least honest relationship you can have with your users, although, it was this train of thought that led me down a path of compromise. The popup compromise.
+
+As you may or may not have experienced, a hideous popup abomination appears from time to time while using the `ctr` documentation. This, in essence, is the popup compromise. If you wish, you can remove this popup and support the future growth of `ctr` through a 12 dollar yearly token subscription. A cost that in all likelihood can be recouped through a single hour of `ctr` use. On the other hand, you do not have to purchase a token subscription to use `ctr`, but you will have to live with the popup guilt. At the end of the day, an Open Source project is only as strong as the community behind it, and it’s my hope that with your help we build a community force to be reckoned with.
+
+[No money, mo problems](https://pseudointellectuals1.bandcamp.com/track/no-money-mo-problems); a statement I can appreciate and sympathize with. If you can't afford a token, are doing charitable, or Open Source work shoot an email to <code><a data-email="gbxra@pge-ynat.pbz" href="token@ctr-lang">token@ctr-lang</a></code> detailing the work, goal, or dream you're chasing. Put some thought into it, but please keep it under `500` words. Also, show-and-tell demonstrations or examples are encouraged. Depending on volume there's no guarantee on a response time because human beings will be manually reading the submissions with eyeballs.
+
+
+<div class="cf"></div>
+<div class="end"></div>

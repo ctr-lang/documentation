@@ -1,0 +1,6 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  height: 400px;
+}

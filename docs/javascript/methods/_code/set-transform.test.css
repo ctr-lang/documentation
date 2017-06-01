@@ -1,0 +1,6 @@
+.TEST {
+  WIDTH: 200PX;
+}
+.TEST::BEFORE {
+  CONTENT: "CAN YOU EVEN CSS?";
+}
